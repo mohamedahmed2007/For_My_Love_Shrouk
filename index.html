@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>عيد ميلاد سعيد يا شروق 🎂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ شاشة الدخول ============ -->
+<div id="loginScreen">
+  <div class="login-glow"></div>
+
+  <div class="coffee-cup">
+    <div class="steam">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="cup-body"></div>
+    <div class="cup-handle"></div>
+    <div class="cup-saucer"></div>
+  </div>
+
+  <h1 class="login-title">«في مفاجأة صغيرة معمولة لشخص مميز...»</h1>
+
+  <div class="password-box">
+    <input type="text" id="passwordInput" placeholder="اكتبي كلمة السر 🔒" autocomplete="off">
+    <button class="btn-gold" id="loginBtn">افتحي مفاجأتك يا شروق ✨</button>
+    <p id="loginError">كلمة السر مش صح.. جرّبي تاني 💛</p>
+  </div>
+</div>
+
+<!-- ============ المحتوى الرئيسي ============ -->
+<div id="mainContent">
+
+  <!-- قسم البداية -->
+  <section id="hero">
+    <div class="hero-glow"></div>
+    <h1 class="birthday-title">Happy Birthday, Shorouk! 🎉</h1>
+    <p class="birthday-message">
+      «11 / 11 .. يوم مميز لأنه اليوم اللي اتولدت فيه واحدة تستاهل أيامها كلها تكون حلوة.
+      كل سنة وأنتِ بخير، وسنتك الجديدة تكون مليانة ضحك ونجاح وحاجات جميلة تشبهك.»
+    </p>
+
+    <div class="counter-wrapper">
+      <div class="counter-box">
+        <span class="counter-num" id="cYears">0</span>
+        <span class="counter-label">سنة</span>
+      </div>
+      <div class="counter-box">
+        <span class="counter-num" id="cDays">0</span>
+        <span class="counter-label">يوم</span>
+      </div>
+      <div class="counter-box">
+        <span class="counter-num" id="cHours">0</span>
+        <span class="counter-label">ساعة</span>
+      </div>
+      <div class="counter-box">
+        <span class="counter-num" id="cMinutes">0</span>
+        <span class="counter-label">دقيقة</span>
+      </div>
+    </div>
+
+    <div class="birthdate-badge">🎂 11 / 11 / 2008 🎂</div>
+  </section>
+
+  <!-- ركن المفضلة -->
+  <section id="favorites" class="reveal">
+    <span class="section-title">ركن شروق المفضل 🍽️</span>
+    <div class="section-divider"></div>
+    <p class="section-sub">دوسي على أي كارت وشوفي المفاجأة 👀</p>
+
+    <div class="cards-grid">
+      <div class="fav-card" data-card="coffee">
+        <div class="fav-emoji">☕</div>
+        <h3 class="fav-title">القهوة</h3>
+        <p class="fav-desc">ركن الراحة والمزاج</p>
+        <p class="fav-extra">فنجان قهوة واحد بيظبط اليوم كله، سُكّر زيادة شوية عشان الحياة تبقى حلوة ☕💛</p>
+      </div>
+
+      <div class="fav-card" data-card="bechamel">
+        <div class="fav-emoji">🍝</div>
+        <h3 class="fav-title">البشاميل</h3>
+        <p class="fav-desc">اختيار اليوم المضمون</p>
+        <p class="fav-extra">لما البشاميل يكون موجود، مفيش حاجة تانية مهمة. اختيارك دايمًا في المضمون 🍝✨</p>
+      </div>
+
+      <div class="fav-card" data-card="hawawshi">
+        <div class="fav-emoji">🥙</div>
+        <h3 class="fav-title">الحواوشي</h3>
+        <p class="fav-desc">لما الجوع يتكلم!</p>
+        <p class="fav-extra">الحواوشي مش أكلة، الحواوشي تجربة كاملة. والجوع لما يتكلم.. محدش يردّ عليه 🥙🔥</p>
+      </div>
+
+      <div class="fav-card" data-card="guava">
+        <div class="fav-emoji">🥤</div>
+        <h3 class="fav-title">عصير الجوافة</h3>
+        <p class="fav-desc">اختيار منعش</p>
+        <p class="fav-extra">جوافة باردة في يوم حر = أعلى درجات السعادة. اختيار منعش وبيعدّي المزاج على طول 🥤💗</p>
+      </div>
+
+      <div class="fav-card" data-card="mango">
+        <div class="fav-emoji">🥭</div>
+        <h3 class="fav-title">عصير المانجا</h3>
+        <p class="fav-desc">المانجا لها مكانة خاصة!</p>
+        <p class="fav-extra">المانجا مش مجرد عصير.. المانجا إحساس. ولما تختاريها، ابقي عارفة إنك في القمة 🥭👑</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- اختاري مزاجك -->
+  <section id="mood" class="reveal">
+    <div class="mood-section">
+      <span class="section-title">اختاري مزاجك النهارده 💭</span>
+      <div class="section-divider"></div>
+      <p class="mood-question">شروق، إيه مودك النهارده؟</p>
+
+      <div class="mood-buttons">
+        <button class="mood-btn" data-mood="coffee">☕ محتاجة قهوة</button>
+        <button class="mood-btn" data-mood="bechamel">🍝 عاوزة بشاميل</button>
+        <button class="mood-btn" data-mood="hawawshi">🥙 نفسي في حواوشي</button>
+        <button class="mood-btn" data-mood="fruit">🥭 مانجا ولا جوافة؟</button>
+      </div>
+
+      <div id="moodResult" class="mood-result"></div>
+    </div>
+  </section>
+
+  <!-- صندوق الهدايا -->
+  <section id="gifts" class="reveal">
+    <span class="section-title">صندوق الهدايا 🎁</span>
+    <div class="section-divider"></div>
+    <p class="section-sub">دوسي على الصندوق وافتحي المفاجآت ✨</p>
+
+    <div class="gift-wrapper">
+      <div id="giftBox" class="gift-box">
+        <div class="gift-lid">
+          <div class="gift-ribbon-v"></div>
+        </div>
+        <div class="gift-body">
+          <div class="gift-ribbon-v"></div>
+          <div class="gift-ribbon-h"></div>
+        </div>
+      </div>
+      <p class="gift-hint">اضغطي لفتح الهدية 🎀</p>
+    </div>
+
+    <div id="giftSurprises" class="gift-surprises">
+      <div class="surprise-card">
+        <span class="surprise-icon">💌</span>
+        <h4>رسالة خاصة من قلبي</h4>
+        <p>شروق، إنتي من أجمل الحاجات اللي حصلتلي في حياتي. وجودك بيفرق في كل يوم، وضحكتك بتخلي أي مكان أحلى. كل سنة وإنتي بخير، ويا رب تفضلي دايمًا في حياتي. 💛</p>
+      </div>
+
+      <div class="surprise-card">
+        <span class="surprise-icon">🍽️</span>
+        <h4>بطاقة اختيار</h4>
+        <p>«اختاري أكلك المفضل النهارده» — وكل اللي نفسك فيه من حقك، ولو مش عارفة تختاري، خدي التلاتة 😄</p>
+      </div>
+
+      <div class="surprise-card">
+        <span class="surprise-icon">☕</span>
+        <h4>بطاقة قهوة</h4>
+        <p>«لكِ قعدة قهوة على مزاجك» — على حسابي، ومعاها حلو وضحكة نضيفة، وكل حاجة تظبط المزاج.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- رسالة النهاية -->
+  <section id="ending" class="reveal">
+    <div class="ending-glow"></div>
+    <div class="ending-content">
+      <span class="ending-heart">💛</span>
+      <p class="ending-message">
+        «شروق، أتمنى كل يوم في سنتك الجديدة يكون أحلى من اللي قبله،
+        وتفضلي دايمًا مبسوطة، وتحققي كل اللي نفسك فيه.
+        وكل سنة وأنتِ بخير، وعقبال سنين كتير مليانة فرحة.»
+      </p>
+      <div class="ending-signature">— بحبك 💛</div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Confetti Canvas -->
+<canvas id="confettiCanvas"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
